@@ -1,0 +1,120 @@
+.landing-layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5 0%, #e6f7ff 100%);
+}
+
+.landing-header {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  padding: 0 24px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon {
+  font-size: 28px;
+  color: #1890ff;
+}
+
+.landing-content {
+  padding: 100px 24px 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 60px 0;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  margin-bottom: 48px;
+}
+
+.main-title {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  margin-bottom: 24px !important;
+  background: linear-gradient(90deg, #1890ff, #52c41a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.features-section {
+  margin-bottom: 48px;
+}
+
+.feature-card {
+  height: 100%;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.posts-section {
+  background: white;
+  padding: 48px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.post-card {
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.post-title {
+  font-size: 20px !important;
+  color: #1890ff;
+}
+
+.post-category {
+  background: #e6f7ff;
+  color: #1890ff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.landing-footer {
+  background: #001529;
+  padding: 48px 24px;
+  margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+  .landing-content {
+    padding: 80px 16px 32px;
+  }
+
+  .hero-section {
+    padding: 40px 20px;
+  }
+
+  .main-title {
+    font-size: 32px !important;
+  }
+
+  .posts-section {
+    padding: 32px 16px;
+  }
+} 

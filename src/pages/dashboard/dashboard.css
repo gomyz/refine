@@ -1,0 +1,32 @@
+.dashboard-container {
+  padding: 24px;
+}
+
+.stat-card {
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.chart-card {
+  min-height: 400px;
+}
+
+.ant-card-head-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ant-statistic-title {
+  font-size: 14px;
+  color: rgba(0,0,0,0.65);
+}
+
+.ant-statistic-content {
+  font-size: 24px;
+  font-weight: 600;
+} 
